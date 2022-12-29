@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(247, 231, 206);
+
+        }
+        #form{
+            display: flex;
+            justify-content: center;
+        }
+        #body1 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        input{
+            display: flex;
+        }
+        #login-form{
+            border: 2px solid black;
+            padding: 50px;
+        }
+        #list-1{
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+        <h2 id=heading>Navigate To Different Web Pages</h2>
+        <center><a id=login href="#login-form">LOGIN</a></center>
+        <center><a id=table href="#table-1" >TABLE</a></center> 
+        <center><a id =about href="#about-heading">ABOUT</a></center>
+        
+        
+<br>    
+    <div id="form">
+        <form id="login-form" action="#">   
+            <label for="fname">Name:</label>
+            <input id="fname" type="text">
+            <br>
+            <label for="password">Password:</label>
+            <input id="password" type="password">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email">
+            <br>
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option value="computer">computer</option>
+                <option value="it">it</option>
+                <option value="ece">ece</option>
+            </select>
+            <br>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            <br>
+            <label for="countries">Country</label>
+            <input list="countries" name="countries" id="countries">
+            <datalist id="countries">
+                <option value="India">
+                <option value="Russia">
+                <option value="Germany">
+                <option value="Japan">
+                <option value="USA">
+            </datalist>
+            <br>
+
+            <button>SUBMIT</button>
+            
+        </form>
+    </div>
+
+<br>
+
+<center>
+    <div class="body1">
+        <h1 id="heading">TABLES AND LISTS</h1>
+        <table id="table-1" border="2px solid black">
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Department</th>
+            </tr>
+            <tr>
+                <td>3050</td>
+                <td>Lalith Kumar</td>
+                <td>Data science</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+             <td>3052</td>
+             <td>Likesh Abhimanyu</td>
+             <td>Cyber Security</td>
+             <td>IT</td>
+            </tr>
+            <tr>
+             <td>3053</td>
+             <td>Lohesh Prahal</td>
+             <td>Data Structures</td>
+             <td>IT</td>
+            </tr>
+            <tr>
+             <td>3054</td>
+             <td>Lokesh</td>
+             <td>Cloud Computing</td>
+             <td>IT</td>
+            </tr>
+         </table>
+         <h2 id="courses">Courses Available</h2>
+         <ul id="list-1">
+             <li>Computer Science</li>
+             <li>Electronics</li>
+             <li>Aerounautics</li>
+             <li>Artificial Intelligence</li>
+             <li>Bio Medical</li>
+         </ul>
+ 
+    </div>
+</center>
+
+<br>
+
+<center>
+    <div id="about-heading">
+        <h1 id="about-reading">About Page</h1>
+    <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore tempore consequatur voluptatibus magni ipsam odio sed, aperiam eum deserunt rerum. Esse nisi nesciunt dolor vero quisquam pariatur unde assumenda ratione</p>
+    </div>
+    
+</center>
+    
+</body>
+</html>

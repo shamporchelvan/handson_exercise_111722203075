@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img {
+    width: 1500px;
+}
+
+#bg1 {
+    background-color: grey;
+    position: relative;
+	max-width: 1500px;
+}
+
+#bg2 {
+    background-color: orange;
+}
+
+#bg3 {
+    background-color: purple;
+}
+
+#bg4 {
+    background-color: paleturquoise;
+}
+
+#titleName {
+    position: absolute;
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+<body>
+    <center>
+        <div id="bg1">
+            <h1 id="titleName"><b><i>Some of my favourite food</i></b></h1>
+            <img id="titleImage" src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="titleimg">
+        </div>
+        <div id="bg2">
+            <h3 id="favFood1"><b><i>Biryani</i></b></h3>
+            <p id="foodDescription"><i>Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent.</i></p>
+            <img id="favFoodImage1" src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/08/02184009/Untitled-design-3-1600x900.jpg?tr=w-1920" alt="Supra">
+        </div>
+        <div id="bg3">
+            <h3 id="favFood2"><i>FriedRice</i></h3>
+            <p id="foodDescription2"><i>Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.</i></p>
+            <img id="favFoodImage2" src="https://www.ticklingpalates.com/wp-content/uploads/2020/05/veg-fried-rice-recipe.jpg" alt="Porsche911">
+        </div>
+        <div id="bg4">
+            <h3 id="favFood3"><i>Parotta</i></h3>
+            <p id="foodDescription3"><i>Parotta or Porotta is a layered Indian and Sri Lankan flatbread made from Maida or Atta, alternatively known as flaky ribbon pancake </i></p>
+            <img id="favFoodImage3" src="https://as2.ftcdn.net/v2/jpg/04/03/73/23/1000_F_403732359_edrxlInZnXU0XX8yfVPbeNUtH1hnZAd4.jpg" alt="MazdaRX7">
+        </div>
+    </center>
+</body>
+</html>

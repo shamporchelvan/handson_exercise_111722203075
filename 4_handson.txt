@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrindBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    div{
+        padding: auto;
+    }
+    body{
+        background-image: url("https://i.pinimg.com/736x/ed/78/11/ed78116c19573356cd2519cf1f4e73d7.jpg");
+        background-size: cover;
+        color: aliceblue;
+    }
+    input{
+        opacity: 0.2;
+    }
+    textarea{
+        opacity: 0.2;
+    }
+</style>
+<body >
+    <img id="backgroundImage" src="" alt="">
+    <center><h1 id="TitleName"><i>FriendsBook</i></h1></center>
+    <center><form id="yourName">
+        <p><div><label for="textBox"><i>Your Name:</i></label>
+        <input id="textBox"type="text"></div></p>
+        <p><div><label for="textBox1"><i>1. A message for me !</i></label>
+            <br>
+            <br>
+        <textarea id="textBox1" cols="30" rows="10"></textarea></div></p>
+        <p><div><label for="textBox2"><i>2. A nickname for me !</i></label>
+            <br>
+            <br>
+        <textarea id="textBox2" cols="30" rows="10"></textarea></div></p>
+        <p><div><i> you ever lied to me ?</i><br>
+            <article><input id="yesMaybe"type="radio">
+            <label for="yesMaybe">yes</label>
+            <input type="radio">
+            <label for="yesMaybe">maybe</label></article>
+            <p><article><i>4.How do you feel when you talk to me?</i></article>
+            <input id="yesMaybe" type="radio">
+            <label for="yesMaybe">happy</label>
+            <input type="radio">
+            <label for="yesMaybe">Irritated</label></p>
+            <p><article><i>5. Do you like to go on a roadtrip with me?</i></article>
+            <input type="radio" id="chice1">
+            <label for="yesMaybe">Yes</label>
+            <input type="radio">
+            <label for="yesMaybe">No</label></p>
+            <p><article><i>6.Best colour that suits me?</i></article>
+            <input type="checkbox" id="bestColour" >
+            <label for="bestColour">red</label>
+            <input type="checkbox" id="bestcolour">
+            <label for="bestColour">black</label>
+            <input type="checkbox">
+            <label for="bestColour">White</label>
+            <input type="checkbox">
+            <label for="bestColour">Blue</label>
+            <input type="checkbox">
+            <label for="bestColour">Green</label></p>
+            <p>
+            <article><i>7.The best moment in our Friendship?</i></article>
+            <textarea cols="30" rows="10"></textarea></p>
+        </div></p>
+    
+    </form></center>
+</body> 
+</html>

@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+<style>
+    .images{
+    width: 100%;
+    height: auto;
+    background-color:whitesmoke;
+}
+.container{
+    
+    width: auto;  
+    height: auto;
+    background-color:whitesmoke;
+    padding-bottom:500px; 
+}
+#backGroundImage{
+    width: 50%;
+    height: 500%;
+    
+}
+a{
+    text-decoration: none;
+}
+#outWork{
+padding-bottom: 20px;
+background-color:whitesmoke;
+}
+#titleDescription{
+position: absolute;
+left: 100px;
+top: 200px;
+}
+h1 {
+position: absolute;
+left: 110px;
+top: 150px;
+}
+button:hover{
+cursor: pointer;
+opacity: 0.4;
+transition: 15ms;
+
+}
+h1{
+   align-items: baseline;
+}
+button{
+background-color: rgb(213, 201, 201);
+color: rgb(83, 85, 87);
+border-radius: 30px;
+border: none;
+}
+button{
+position: absolute;
+left: 200px;
+top: 270px;
+}
+
+</style>
+<body>
+    <center>
+    <div class="container">
+        <h1 align="left" id="titleName" > NEO PHOTOGRAPHY</h1>
+        <h2 align="left" id="titleDescription">Beautiful Commercial Photography</h2>
+        <button type="submit"><a id="viewWork" href="#ourWork">VIEW WORK</a></button>
+        <img align="right"id="backGroundImage"  src="https://cdn.pixabay.com/photo/2013/11/28/10/02/camera-219958_960_720.jpg" alt=""> 
+    </div>
+    <div class="images">
+        <h3 id="ourWork">Our Work</h3>
+        <img id="firstImage" class="images" src="https://images.alphacoders.com/238/thumbbig-238041.webp" alt="pic2" >
+    </div>
+    <div>
+        <img id="secondImage" class="images" src="https://www.pixelstalk.net/wp-content/uploads/images5/4K-Food-Wallpaper-for-Desktop-768x432.jpg" alt="pic3" >
+        <p id="firstImageName"> Food Photography </p>
+        
+    </div>
+    <div>
+        <img id="thirdImage" class="images" src="https://media.istockphoto.com/id/1145422105/photo/eiffel-tower-aerial-view-paris.jpg?s=612x612&w=is&k=20&c=GaLPYacVcplcRSHWF0oda5nODPA0yiyLHp44b-JOwy4=" alt="pic4" >
+        <p align="center" id="secondImageName">Aerial Photography</p>
+    </div>
+    <div>
+        <img id="fourthImage" class="images" src="https://4kwallpapers.com/images/walls/thumbs_3t/8674.jpg" alt="pic5" >
+        <p align="center"id="thirdImageName">Abstract Photography</p>
+    </div>
+</center>
+
+
+</body>
+</html>
